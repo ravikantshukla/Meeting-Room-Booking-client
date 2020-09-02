@@ -8,6 +8,7 @@ import { RoomsComponent } from './admin/rooms/rooms.component';
 import { UsersComponent } from './admin/users/users.component';
 import { Routes, RouterModule } from '@angular/router';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { RoomDetailComponent } from './admin/rooms/room-detail/room-detail.component';
 
 const routes: Routes = [
   { path: 'admin/users', component: UsersComponent },
@@ -23,7 +24,8 @@ const routes: Routes = [
     CalendarComponent,
     RoomsComponent,
     UsersComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    RoomDetailComponent,
   ],
   imports: [
     BrowserModule,
